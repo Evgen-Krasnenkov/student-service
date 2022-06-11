@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+###personal files##
+src/main/resources/application.properties
+myLog.txt
