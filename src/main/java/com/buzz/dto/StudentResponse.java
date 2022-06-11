@@ -12,10 +12,7 @@ public class StudentResponse {
 
 	private String email;
 
-	private String street;
-
-	private String city;
-
+	private AddressResponse addressResponse;
 	public StudentResponse(Student student) {
 		this.id = student.getId();
 		this.firstName = student.getFirstName();
@@ -55,20 +52,11 @@ public class StudentResponse {
 		this.email = email;
 	}
 
-	public String getStreet() {
-		return street;
+	public AddressResponse getAddressResponse() {
+		return addressResponse;
 	}
 
-	public void setStreet(String street) {
-		this.street = street;
+	public void setAddressResponse(AddressResponse addressResponse) {
+		this.addressResponse = addressResponse;
 	}
-
-	public String getCity() {
-		return city;
-	}
-
-	public void setCity(String city) {
-		this.city = city;
-	}
-
 }
