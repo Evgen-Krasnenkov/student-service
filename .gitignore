@@ -33,5 +33,6 @@ build/
 .vscode/
 
 ###personal files##
-src/main/resources/application.properties
-myLog.txt
+#src/main/resources/application.properties
+/myLog.txt
+/*.gz
